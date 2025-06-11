@@ -97,20 +97,3 @@ Convert a list of OEFP vectors into a dictionary
   * dictionary – key: bit name, value: list of bit values
 
 ---
-
-### DrawFingerprint(fp_key)
-Draw substructure corresponding to a selected OEFP fingerprint bit  
-* **Parameters**
-  * fp_key (*string*) – OEFP bit name (e.g., "OLEDFP123")
-* **Return**
-  * Image of the substructure
-
----
-
-### DrawFingerprints(fp_keys, molsPerRow=3)
-Visualize multiple OEFP fingerprint substructures in a grid  
-* **Parameters**
-  * fp_keys (*list[string]* or *string*) – OEFP bit(s) to visualize
-  * molsPerRow (*int*) – number of images per row
-* **Return**
-  * Image grid of selected substructures
