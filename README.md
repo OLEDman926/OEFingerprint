@@ -55,12 +55,6 @@ Dictionary of OEFP fingerprint substructures from JSON file (keys = bit names, v
 **OEFPDictMol (*dictionary*)**  
 Dictionary of RDKit Mol objects corresponding to OEFP fingerprint substructures
 
-**OEFPKeys (*list*)**  
-List of all OEFP bit identifiers (e.g., "OLEDFP101", "OPDFP22")
-
-**bit_size (*int*)**  
-Total number of bits in the OEFP fingerprint
-
 ---
 
 ## Functions
